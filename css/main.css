@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #353535;
+}
+body html{
+  width: 100%;
+  height: 100%;
+}
+#topnav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(253, 244, 248, 0.5);
+}
+/* my name */
+div.mr-auto { 
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;900&display=swap");
+  text-decoration: none;
+  font-size: 2em;
+}
+
+/* navbar list */
+div.w-50 {
+  font-family: url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;900&display=swap");
+  font-size: 20px;
+  
+}
+
+h4.pt-3 {
+  font-family: url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;900&display=swap");
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+
+/* a link */
+div:nth-child(1) > a {
+  color: #353535;
+}
+div:nth-child(2) > a {
+  color: #353535;
+}
+div:nth-child(3) > a {
+  color: #353535;
+}
+div:nth-child(4) > a {
+  color: #353535;
+}
+
+/* number list */
+div.list {
+  font-size: 40px;
+  
+}
+
+/* main content div */
+.row {
+  font-size: 5px;
+  background-color: #d7c9cc;
+  
+}
+body > div.container-fluid {
+  margin-top: 10%;
+  margin-bottom: 4%;
+  
+}
+
+span.span mr-4 {
+  font-family: url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;900&display=swap");
+}
+
+span.add1 {
+  margin-left: 2px;
+}
+span.add2 {
+  margin-left: 9px;
+}
+
+h5{
+  letter-spacing: 7px;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+#about > h5 {
+  font-size: 30px;
+}
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:40%;
+  position:relative;
+  height:0;
+
+
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+
+}
+
+body > footer > div {
+  background-color: rgba(253, 244, 248, 0.5);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+}
+body > footer > div > div {
+  text-align: right;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 2px;
+}
+
+
+/* Home */
+div.col-8.d-block.py-5 > div:nth-child(1) > div {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+div:nth-child(2) > div {
+  font-size: 25px;
+}
+/* End home */
